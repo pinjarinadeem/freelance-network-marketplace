@@ -252,4 +252,57 @@ body {
     background: #388E3C;
 }
 
+@media (max-width: 768px) {
+        .sidebar {
+            position: static;
+            width: 100%;
+            height: auto;
+            text-align: center;
+        }
+
+        .content {
+            margin-left: 0;
+            padding: 10px;
+        }
+
+        .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .navbar .menu {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .navbar .menu a {
+            padding: 8px 0;
+        }
+
+        .banner {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-card {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-card .profile-pic {
+            margin-bottom: 10px;
+        }
+
+        .project-list {
+            grid-template-columns: 1fr;
+        }
+
+        .modal-dialog {
+            width: 95%;
+            margin: auto;
+        }
+    }
+
 
