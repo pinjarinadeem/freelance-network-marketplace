@@ -1,0 +1,255 @@
+/* General Styling */
+body {
+    background: #f4f4f9; /* Soft white background */
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #ffffff; /* Pure white sidebar */
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #333;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+.sidebar ul li:hover {
+    background: #e3e3e3; /* Light grey hover effect */
+    border-left: 5px solid #333;
+}
+
+/* Content */
+.content {
+    margin-left: 260px;
+    padding: 20px;
+}
+
+/* Projects Section */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project-item {
+    background: #ffffff;
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+}
+
+.project-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* View Project Button */
+.view-project {
+    display: inline-flex;
+    align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    background: #4CAF50; /* Green button */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.view-project img {
+    margin-right: 5px;
+}
+
+.view-project:hover {
+    background: #388E3C; /* Darker green */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 20px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar .menu a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar .menu a:hover {
+    color: #4CAF50; /* Green hover effect */
+}
+
+/* Search Bar */
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #e3e3e3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar .search-bar input {
+    background: transparent;
+    border: none;
+    color: #333;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+.navbar .search-bar input::placeholder {
+    color: #777;
+}
+
+.navbar .search-bar button {
+    background: none;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 20px; /* Moves the profile card to the right */
+    top: 260px; /* Adjust as needed */
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid #4CAF50;
+}
+
+.profile-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-details p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.profile-link {
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 12px;
+    background: #4CAF50;
+    border-radius: 5px;
+}
+
+.profile-link:hover {
+    background: #388E3C;
+}
+
+/* Wallet Section */
+#wallet {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#wallet h2 {
+    color: #333;
+}
+
+#wallet form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#wallet input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+#wallet button {
+    padding: 10px;
+    border: none;
+    background: #4CAF50;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#wallet button:hover {
+    background: #388E3C;
+}
+
+
